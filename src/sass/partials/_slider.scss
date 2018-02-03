@@ -1,0 +1,32 @@
+.slider-wrapper {
+	position: relative;
+	.slideTabs {
+		position: absolute; z-index: 10; background: rgba(0,0,0,0.5); width: 100%; color: #fff;
+		ul {text-align: center; padding: 25px 0px;}
+		li {
+			display: inline-block; text-transform: uppercase; font-size: 16px; margin-left: 40px; padding-right: 40px;
+			font-family: Gotham-Light; position: relative; cursor: pointer;
+			&:after {
+				content: ""; display: block; background: url(../images/checkSlice.png) no-repeat;
+				width: 15px; height: 22px; position: absolute; right: 0; top: 0;
+			}
+			&:last-child {&:after {display: none;}}
+		}
+	}
+	.banner-slider {z-index: 9; position: relative; margin-top: 110px;}
+}
+
+@media screen and(max-width: 667px){
+	.slider-wrapper {
+		.banner-slider {margin-top: 0px;}
+		.slideTabs 
+		{	position: static; margin-top: 20px;
+			ul {padding: 8px 0px;}
+			li {
+			    display: inline-block; text-transform: uppercase; font-size: 12px;
+			    margin-left: 0px; padding: 0px 5px; font-family: Gotham-Light; position: relative; cursor: pointer;
+			    &:after {display: none;}
+			}
+		}
+	}
+}

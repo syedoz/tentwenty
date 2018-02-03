@@ -1,6 +1,7 @@
 body{
 	margin: 0;
 	padding: 0;
+	font-family: gotham-book;
 }
 html {height: 100%;}
 
@@ -12,7 +13,13 @@ html {height: 100%;}
 .show-mobile {display: none;}
 .hide-mobile {display: block;}
 .col-center {float: none; margin: auto;}
-
+p {color: $font; font-size: $p; line-height: 30px;}
+ul {
+	margin: 0; padding: 0;
+	li {list-style-type: none;}
+}
 a:focus, a:hover {outline: none;}
 
-// @include font-face('arabic', 'GE_Dinar_One_Medium', 'arabic', '.otf','regular');
+@include font-face('gotham-bold', 'Gotham-Bold', 'english', '.otf','bold');
+@include font-face('gotham-book', 'Gotham-Book', 'english', '.otf','book');
+@include font-face('Gotham-Light', 'Gotham-Light', 'english', '.otf','light');

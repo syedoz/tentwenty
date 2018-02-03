@@ -1,0 +1,27 @@
+.bSection {
+	background: url(../images/slice.jpg) repeat; padding: 80px 0px;
+	.txt-col {
+		text-align: center;
+		span {display: block; font-size: 16px;}
+		.name {color: #c07e45; background: #ffc6ca; display: table; margin: 0px auto 10px;}
+		.desig {color: $font;}
+		p {line-height: 24px;}
+	}
+	.img-col {img {width: 100%;}}
+	.cntnt {padding: 50px 0px;}
+}
+
+.tabs {
+	margin: 60px 0px 80px; position: relative;
+	img {width: 100%;}
+	.txtHldr {
+		position: absolute; top:0; bottom:0; right:0; left:0; width: 100%;
+		.inner {display: table; height: 100%; width: 100%; text-align: center; color: #fff; text-transform: uppercase;}
+		.txt {display: table-cell; vertical-align: middle; font-size: 32px; font-family: Gotham-Light;}
+	}
+}
+
+@media screen and(max-width: 667px){
+.bSection {padding: 40px 0px;}
+.tabs {.item {margin: 10px 0px;}}
+}

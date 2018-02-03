@@ -1,0 +1,8 @@
+.aSection {
+	text-align: center; padding: 70px 0px 50px;
+	h2 {
+		text-transform: uppercase; color: $baseColor; font-family: Gotham-Light; font-size: $h2;
+		border-bottom: 1px solid; display: table; margin: auto; padding: 0px 10px 12px;
+	}
+	p {padding-top: 20px;}
+}
