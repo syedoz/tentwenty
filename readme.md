@@ -1,20 +1,39 @@
-## Grunt Kick off
+## Live Demo
 
-Follow the steps below to kick start your grunt project with basic modules configuration.
-Full tutorial on how to work on grunt from scratch coming soon.
+http://syedmoizali.com/tentwenty
 
-## Prerequisites
+## Prerequesties
 
-This project requires Node.js and ruby installed in system with npm upto date and Grunt 1.0.1. installed in development folder.
+- Node JS
+- Grunt
+- Npm
 
-## Getting Started
+## Installation
 
-Install all dependencies listed in package.json by
-```
-$ npm install
-```
+1. `git clone https://github.com/syedoz/tentwenty.git`
+2. `cd tentwenty`
+3. `npm install`
 
-Run Grunt to generate build folder with compressed js, images and css by using following command
-```
-$ grunt build
-```
+## Dev
+
+To run in development mode install all the prerequesties and run following commands.
+
+* "Grunt Build" to build solution and generate assests.
+* "Grunt Watch" to start listening to JS and CSS changes.
+* "Grunt imagemin" to minify images.
+
+
+## Built with
+
+* Bootstrap (base framrwork)
+* Grunt (For task automation)
+* SASS (CSS PreProcessor)
+* Imagemin (For image minification)
+* uglify (For JS Compression)
+* Owl Carousel
+* JsHint (For JS testing and errors)
+
+
+## Note
+
+Both source and production folder are included in solution to make it viewable without setting up dev environment.
